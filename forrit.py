@@ -1,7 +1,7 @@
 import os
 from bottle import route, run
 
-@route('/')
+@route("/")
 def index():
   return "<a href='/about'>About</a>" \
          " <a href='/contact'>Contact</a>"
