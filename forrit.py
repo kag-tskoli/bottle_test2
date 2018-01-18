@@ -4,7 +4,8 @@ from bottle import route, run
 @route('/')
 def index():
   return "<a href='/about'>About Us</a>" \
-         " <a href='/contact'>Contact</a>"
+         " <a href='/contact'>Contact</a>" \
+        " <a href='/user'>Users</a>"
 
 @route('/about')
 def about():
