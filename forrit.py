@@ -17,6 +17,6 @@ def contact():
 
 @route('/user<name>')
 def user(name):
-  return "<h2>Welcome " + name + "</h2>
+  return "<h2>Welcome " + name + "</h2>"
   
 run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
